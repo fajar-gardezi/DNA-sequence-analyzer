@@ -4,6 +4,7 @@ This Python script analyzes a given DNA sequence by counting the occurrences of 
 Features:
   Counts occurrences of A, T, C, and G in the sequence
   Calculates the GC content of the DNA sequence
+
 How to Use:
   Clone or download the project to your local machine.
   Run the script dna_analyzer.py in Python.
