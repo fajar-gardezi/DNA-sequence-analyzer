@@ -1,19 +1,18 @@
-
 def dna_analyzer(text_file):
   analysis = {"A": 0, "C": 0, "G": 0, "T": 0} #dictionary that holds the final count of each nucleotide
   gc_count = 0 #variable holds the number of G and C in the sequence
 
   with open(text_file, "r") as sequence: nucleotides = sequence.read()
 
-  for nucleotide in nucleotides.upper(): #converts all nucelotides to uppercase to handle any lowercase inputs
+  for nucleotide in nucleotides.upper(): #converts all nucleotides to uppercase to handle any lowercase inputs
     analysis[nucleotide] += 1
     if nucleotide == "G" or nucleotide == "C": gc_count += 1
 
   gc_percentage = (gc_count / len(nucleotides))*100 #variable holds the percent of nucleotides that are G and C
 
   print(analysis)
-  print("The GC content is {percent}%.".format(percent = int(gc_percentage)))
+  print("The GC content is {percent}%.".format(percent = int(gc_percentage))) #prints a formated message
 
   return analysis
 
-dna_analyzer("sequence.txt")
+dna_analyzer("sequence.txt") #edit here if you have a file
