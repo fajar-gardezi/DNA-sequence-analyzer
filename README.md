@@ -10,3 +10,6 @@ This Python project is designed to analyze a DNA sequence by counting the nucleo
 1. Open the `sequence.txt` file and put your DNA sequence (e.g., `ATGCATGC`).
 2. Run the Python script:
 
+#### If You're Uploading Your Own File
+1. Replace "sequence.txt" with the name of your file e.g. "RD14-0003-0001-B".txt
+
